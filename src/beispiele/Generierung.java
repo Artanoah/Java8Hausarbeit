@@ -16,22 +16,49 @@ import java.util.stream.Stream;
 public class Generierung {
 	static int i = 1;
 	
+	/**
+	 * Hauptmethode. </br>
+	 * Output:</br><code>
+	 * 2</br>
+	 * 4</br>
+	 * 6</br>
+	 * 8</br>
+	 * 10</br>
+	 * 2</br>
+	 * 4</br>
+	 * 6</br>
+	 * 8</br>
+	 * 10</br>
+	 * 2</br>
+	 * 4</br>
+	 * 6</br>
+	 * 8</br>
+	 * 10</br>
+	 * 2</br>
+	 * 4</br>
+	 * 6</br>
+	 * 8</br>
+	 * 10</br>
+	 * </code>
+	 * 
+	 * @param args <code>String[]</code> Unbenutzt.
+	 */
 	public static void main(String[] args) {
 		ausList().
 			filter(i -> i % 2 == 0).
-			forEach(i -> System.out.println(i));
+			forEach(System.out::println);
 		
 		ausArray().
 			filter(i -> i % 2 == 0).
-			forEach(i -> System.out.println(i));
+			forEach(System.out::println);
 		
 		ausElementen().
 			filter(i -> i % 2 == 0).
-			forEach(i -> System.out.println(i));
+			forEach(System.out::println);
 		
 		ausGenerator().
 			filter(i -> i % 2 == 0).
-			forEach(i -> System.out.println(i));
+			forEach(System.out::println);
 	}
 	
 	/**
