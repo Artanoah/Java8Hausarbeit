@@ -3,26 +3,25 @@ package benchmarks.intermediateMethoden;
 import java.lang.reflect.Method;
 
 import benchmarkTool.measure.MethodsTimer;
-import benchmarks.intermediateMethoden.map.MapBenchmarkObject;
-import benchmarks.intermediateMethoden.map.ForBenchmarkObject;
+import benchmarks.intermediateMethoden.filter.FilterBenchmarkObject;
+import benchmarks.intermediateMethoden.filter.ForBenchmarkObject;
 
 /**
- * Diese Klasse führt die Benchmarks für die Methode <code>map</code> aus.
+ * Diese Klasse führt die Benchmarks für die Methode <code>filter</code> aus.
  * Die getesteten Objekte befinden sich in <code>
- * benchmarks.intermediateMethoden.map</code>.
+ * benchmarks.intermediateMethoden.filter</code>.
  * 
  * @author Steffen Giersch
  */
-public class BenchmarkMap {
+public class BenchmarkFilter {
 
 	public static void main(String[] args) throws Exception {
 		Method[] methods = new Method[]{
-				MapBenchmarkObject.class.getMethod("mapBenchmark", new Class[0]),
+				FilterBenchmarkObject.class.getMethod("filterBenchmark", new Class[0]),
 				ForBenchmarkObject.class.getMethod("forBenchmark", new Class[0]),
 				};
 
 		MethodsTimer mt = new MethodsTimer(methods);
 		mt.report();
 	}
-
 }

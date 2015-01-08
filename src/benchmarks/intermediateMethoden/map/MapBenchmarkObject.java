@@ -9,7 +9,7 @@ import benchmarks.Constants;
 
 /**
  * Dies ist eine Klasse zum Benchmarken der Methode java.util.stream.Stream&lt;T&gt;.map </br>
- * Verglichen wird mit der Klasse benchmarks.intermediateMethoden.ForBenchmark </br></br>
+ * Verglichen wird mit der Klasse benchmarks.intermediateMethoden.map.ForBenchmark </br></br>
  * 
  * Als Benchmark wird jedes Element einer Liste 5-stelliger Strings zunaechst mit der Methode
  * String.toUpperCase bearbeitet. Damit der Body von <code>map</code> trotz lazy-evaluation
