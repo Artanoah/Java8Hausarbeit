@@ -24,5 +24,4 @@ public class BenchmarkMap {
 		MethodsTimer mt = new MethodsTimer(methods);
 		mt.report();
 	}
-
 }
