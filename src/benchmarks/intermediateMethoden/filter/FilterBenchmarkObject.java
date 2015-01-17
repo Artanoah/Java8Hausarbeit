@@ -9,8 +9,8 @@ import benchmarks.Constants;
 
 /**
  * Dies ist eine Klasse zum Benchmarken der Methode java.util.stream.Stream&lt;T&gt;.filter </br>
- * Verglichen wird mit der Klasse benchmarks.intermediateMethoden.filter.ForBenchmark </br></br>
- * 
+ * Verglichen wird mit der Klasse benchmarks.intermediateMethoden.filter.ForBenchmark </br>
+ * </br>
  * Als Benchmark wird jedes Element einer Liste 5-stelliger Strings zunaechst mit der Methode
  * <code>filter</code> darauf geprueft, ob es mit dem Buchstaben 'a' beginnt. Damit der Body 
  * von <code>filter</code> trotz lazy-evaluation aufgerufen wird, wird danach mit <code>forEach
