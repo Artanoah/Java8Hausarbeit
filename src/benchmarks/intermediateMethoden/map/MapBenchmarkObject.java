@@ -12,7 +12,7 @@ import benchmarks.Constants;
  * Verglichen wird mit der Klasse benchmarks.intermediateMethoden.map.ForBenchmark </br></br>
  * 
  * Als Benchmark wird jedes Element einer Liste 5-stelliger Strings zunaechst mit der Methode
- * String.toUpperCase bearbeitet. Damit der Body von <code>map</code> trotz lazy-evaluation
+ * <code>toUpperCase</code> bearbeitet. Damit der Body von <code>map</code> trotz lazy-evaluation
  * aufgerufen wird, wird danach mit <code>forEach</code> auf jedes Element die Methode <code>
  * length</code> aufgerufen.
  * 

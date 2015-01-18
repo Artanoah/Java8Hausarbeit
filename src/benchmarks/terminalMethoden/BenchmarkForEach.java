@@ -6,6 +6,13 @@ import benchmarkTool.measure.MethodsTimer;
 import benchmarks.terminalMethoden.forEach.ForBenchmarkObject;
 import benchmarks.terminalMethoden.forEach.ForEachBenchmarkObject;
 
+/**
+ * Diese Klasse führt die Benchmarks für die Methode <code>forEach</code> aus.
+ * Die getesteten Objekte befinden sich in <code>
+ * benchmarks.terminalMethoden.forEach</code>.
+ * 
+ * @author Steffen Giersch
+ */
 public class BenchmarkForEach {
 
 	public static void main(String[] args) throws Exception {

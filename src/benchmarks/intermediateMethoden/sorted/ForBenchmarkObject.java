@@ -12,10 +12,10 @@ import benchmarks.Constants;
 
 /**
  * Dies ist eine Klasse zum Benchmarken der Methode java.util.stream.Stream&lt;T&gt;.sorted </br>
- * Verglichen wird mit der Klasse benchmarks.intermediateMethoden.sorted.SortedBenchmarkObject </br></br>
- * 
+ * Verglichen wird mit der Klasse benchmarks.intermediateMethoden.sorted.SortedBenchmarkObject </br>
+ * </br> 
  * Als Benchmark wird jedes Element einer Liste 5-stelliger Strings zunaechst mit der Methode
- * <code>Collections.sort</code> sortiert und dann mit der Methode <code>length<code> verarbeitet.
+ * <code>Collections.sort</code> sortiert und dann mit der Methode <code>length</code> verarbeitet.
  * 
  * @author Steffen Giersch
  */
