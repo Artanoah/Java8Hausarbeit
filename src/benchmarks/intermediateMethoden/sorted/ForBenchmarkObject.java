@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import javax.swing.event.ListSelectionEvent;
-
 import benchmarkTool.io_manager.InputDataReader;
 import benchmarks.Constants;
 
